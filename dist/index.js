@@ -1,3 +1,4 @@
+"use strict";
 // - Here is a typeScript code that I wrote and comments to explain the code
 var isCompleted = true;
 var isPending = false;
@@ -31,6 +32,3 @@ console.log("\nArithmetic Operations:"); // - = new line that says Arithmetic Op
 console.log("Sum: ".concat(sum)); // - = 15
 console.log("Difference: ".concat(difference)); // - = 5
 console.log("Full Name: " + fullName); // - John doe
-// - After I wrote this in the terminal: tsc .index.ts = that made a new javaScript file - we need to do this because the web
-// doesn't understand typeScript but understands javaScript
-// - Check my answers by typing node .index.js in the terminal :)
