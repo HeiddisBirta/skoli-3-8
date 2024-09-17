@@ -1,21 +1,21 @@
 // Here is the javaScript file that was generated after I finished coding the index.ts file and wrote node .index.tx in the terminal
 
-var isCompleted = true;
-var isPending = false;
+const isCompleted = true;
+const isPending = false;
 
-var numberArray = [1, 2, 3, 4, 5];
+const numberArray = [1, 2, 3, 4, 5];
 
-var booleanArray = [true, false, true, true];
+const booleanArray = [true, false, true, true];
 
-var num1 = 10;
-var num2 = 5;
+const num1 = 10;
+const num2 = 5;
 
-var sum = num1 + num2;
-var difference = num1 - num2;
+const sum = num1 + num2;
+const difference = num1 - num2;
 
-var firstName = "John";
-var lastName = "Doe";
-var fullName = firstName + " " + lastName;
+const firstName = "John";
+const lastName = "Doe";
+const fullName = firstName + " " + lastName;
 
 console.log("\nBoolean true or false Values:");
 console.log("Is completed? " + isCompleted);

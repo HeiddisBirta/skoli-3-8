@@ -1,26 +1,26 @@
 // - Here is a typeScript code that I wrote and comments to explain the code
-let isCompleted: boolean = true;
-let isPending: boolean = false;
+const isCompleted: boolean = true;
+const isPending: boolean = false;
 // - If compleated it's true, if it's pending it's false
 
-let numberArray: number[] = [1, 2, 3, 4, 5];
+const numberArray: number[] = [1, 2, 3, 4, 5];
 // - A list of numbers
 
-let booleanArray: boolean[] = [true, false, true, true];
+const booleanArray: boolean[] = [true, false, true, true];
 // - A list of true and false statements = they are called boolean
 
-let num1: number = 10;
-let num2: number = 5;
+const num1: number = 10;
+const num2: number = 5;
 // - num1 is 10, num2 is 5
 
-let sum = num1 + num2;
-let difference = num1 - num2;
+const sum = num1 + num2;
+const difference = num1 - num2;
 // - sum is 10+5
 // - diffrence is 10-5
 
-let firstName: string = "John";
-let lastName: string = "Doe";
-let fullName: string = firstName + " " + lastName;
+const firstName: string = "John";
+const lastName: string = "Doe";
+const fullName: string = firstName + " " + lastName;
 // - A string is a sequence of one or more characters that may consist of letters, numbers, or symbols always inside ""
 // - firstName is "John"
 // - lastName is "Doe"
